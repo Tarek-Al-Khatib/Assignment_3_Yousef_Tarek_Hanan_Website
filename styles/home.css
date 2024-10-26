@@ -1,7 +1,10 @@
 .hero-section{
-  margin-top: 92px;
-  height: 85vh;
-  gap: 30px;
+    margin-top: 92px;
+    height: 85vh;
+    gap: 30px;
+    background-image: url('../imgs/hero-bk.gif');
+    background-size: cover; 
+    background-position: center;
 }
 
 .hero-section h1 {
