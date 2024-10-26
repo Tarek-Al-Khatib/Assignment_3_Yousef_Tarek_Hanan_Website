@@ -1,7 +1,7 @@
 .hero-section{
-    margin-top: 92px;
+    margin-top: 95px;
     height: 85vh;
-    gap: 30px;
+    gap: 5px;
     background-image: url('../imgs/hero-bk.gif');
     background-size: cover; 
     background-position: center;
@@ -10,7 +10,13 @@
 .hero-section h1 {
     font-family: "QB-one";
     font-weight: bold;
-    font-size: 70px;
+    font-size: 74px;
     text-align: center;
-    line-height: 76px;
+    line-height: 70px;
+}
+
+.hero-img {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 20px;
 }
