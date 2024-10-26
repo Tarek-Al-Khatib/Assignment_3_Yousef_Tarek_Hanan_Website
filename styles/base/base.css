@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Jaro";
+  src: url('./../../assets/fonts/Jaro/static/Jaro_9pt-Regular.ttf');
+}
+
+@font-face {
+  font-family: "QB-one";
+  src: url('./../../assets/fonts/qb-one/BoxTube Labs - QB One Bold Condensed.ttf');
+  font-weight: bold;
+}
+
+
+body{
+  font-family: "QB-one";
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #692C71;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  font-family: 'QB-one';
+}
+
+.navbar {
+  height: 92px;
+  width: 100%;
+  padding: 0 25px;
+  align-items: center;
+  position: fixed;
+}
+
+.nav-logo{
+  padding: 2px;
+  height: 100%;
+  width: 280px;
+}
+
+.nav-links {
+  gap: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 410px;
+}
+
+.nav-actions {
+  flex-grow: 1;
+  justify-content: end;
+  margin-right: 30px;
+}
