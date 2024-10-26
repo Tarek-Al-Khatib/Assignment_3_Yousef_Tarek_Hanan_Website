@@ -62,4 +62,14 @@ flex-wrap: wrap;
 .text-btn:hover {
     opacity: 0.7;
 }
-  
+
+.radius_15{
+    border-radius: 15px;
+}
+
+.section_margin{
+    margin-top: 40px ;
+}
+.section_h_margin{
+    margin-bottom: 40px ;
+}
