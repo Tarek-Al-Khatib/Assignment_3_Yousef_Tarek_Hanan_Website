@@ -5,8 +5,23 @@
 }
 
 @font-face {
-  font-family: "Jaro";
+  font-family: "Jaro1";
   src: url('./../../assets/fonts/Jaro/static/Jaro_9pt-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Jaro2";
+  src: url('./../../assets/fonts/Jaro/static/Jaro_24pt-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Jaro3";
+  src: url('./../../assets/fonts/Jaro/static/Jaro_36pt-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Jaro4";
+  src: url('./../../assets/fonts/Jaro/static/Jaro_60pt-Regular.ttf');
 }
 
 @font-face {
@@ -14,6 +29,8 @@
   src: url('./../../assets/fonts/qb-one/BoxTube Labs - QB One Bold Condensed.ttf');
   font-weight: bold;
 }
+
+
 
 
 body{

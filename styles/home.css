@@ -1,0 +1,13 @@
+.hero-section{
+  margin-top: 92px;
+  height: 85vh;
+  gap: 30px;
+}
+
+.hero-section h1 {
+    font-family: "QB-one";
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    line-height: 76px;
+}
