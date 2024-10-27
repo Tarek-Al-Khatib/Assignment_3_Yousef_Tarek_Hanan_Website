@@ -113,12 +113,18 @@
 /* Level Section*/
 
 .Levels_section {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 90%,
+    rgba(255, 255, 255, 1) 100%
+  );
   background-color: #692c71;
 }
 
 .Levels_section_sub {
   gap: 15px;
   justify-content: space-around;
+  padding-bottom: 100px;
 }
 .Level_section {
   max-width: 25%;
@@ -141,3 +147,5 @@
   font-size: 10px;
   text-align: center;
 }
+
+/* Footer */
