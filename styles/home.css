@@ -53,7 +53,6 @@
     border: 3px solid;
     max-width: 270px;
     max-width: 250px;
-    height: 50vh;
     flex-grow: 1;
     gap: 15px;
 }
@@ -84,29 +83,23 @@
 
 }
 .Level_section{
-    padding: 15px;
-    border: 3px solid;
     max-width: 270px;
     max-width: 250px;
-    height: 50vh;
+    height: 40vh;
     flex-grow: 1;
     gap: 15px;
 }
 
 .Level_name{
-    padding: 25px 0;
     text-align: center;
     width: 100%;
 }
 
 .Level_img{
-    margin-top: 10px ;
     width: 100%;
 }
 
 .Level_info{
-    margin-top: 10px;
-    padding: 5px 10px;
     font-size: 10px;
     text-align: center;
 }
