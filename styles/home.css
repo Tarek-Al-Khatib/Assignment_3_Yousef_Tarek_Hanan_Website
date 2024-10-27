@@ -61,12 +61,14 @@
       rgba(255, 255, 255, 1)
     ),
     url("../imgs/characters-bg.png");
-  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.characters_title {
+  font-size: 48px;
+}
 .characters_section_sub {
   gap: 15px;
   justify-content: space-around;
@@ -74,28 +76,38 @@
 .character_section {
   padding: 15px;
   border: 3px solid;
-  max-width: 270px;
-  max-width: 250px;
+  max-width: 40%;
   flex-grow: 1;
   gap: 15px;
 }
 
 .character_name {
   padding: 25px 0;
+  font-size: 48px;
   text-align: center;
   width: 100%;
 }
 
 .character_img {
   margin-top: 10px;
-  width: 100%;
+  width: 900px;
+  height: 500px;
 }
 
 .character_info {
   margin-top: 10px;
   padding: 5px 10px;
-  font-size: 10px;
+  width: 80%;
+  height: 500px;
   text-align: center;
+}
+
+.character_about {
+  gap: 8px;
+}
+
+.character_story {
+  font-size: 32px;
 }
 
 /* Level Section*/
