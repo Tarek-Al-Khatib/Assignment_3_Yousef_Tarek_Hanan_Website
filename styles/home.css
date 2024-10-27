@@ -112,13 +112,16 @@
 
 /* Level Section*/
 
+.Levels_section {
+  background-color: #692c71;
+}
+
 .Levels_section_sub {
   gap: 15px;
   justify-content: space-around;
 }
 .Level_section {
-  max-width: 270px;
-  max-width: 250px;
+  max-width: 25%;
   height: 40vh;
   flex-grow: 1;
   gap: 15px;
@@ -131,6 +134,7 @@
 
 .Level_img {
   width: 100%;
+  border: 3px solid black;
 }
 
 .Level_info {
