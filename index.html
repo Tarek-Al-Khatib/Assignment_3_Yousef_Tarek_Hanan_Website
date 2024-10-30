@@ -18,31 +18,36 @@
 
       <div class="flex nav-links full-width">
         <div>
-          <a href="">Home</a>
+          <a href="#home">Home</a>
         </div>
         <div>
-          <a href="">Story</a>
+          <a href="#story">Story</a>
         </div>
         <div>
-          <a href="">Characters</a>
+          <a href="#characters">Characters</a>
         </div>
         <div>
-          <a href="">Explore</a>
-        </div>
-        <div>
-          <a href="">Contact Us</a>
+          <a href="#footer" class="filled-btn">Contact Us</a>
         </div>
       </div>
     </nav>
     <main class="flex column center">
-      <section class="flex center full-width hero-section white-txt column">
+      <section
+        id="home"
+        class="flex center full-width hero-section white-txt column"
+      >
         <img class="hero-img" src="imgs/bug.png" />
         <h1>Start the Challenge <br />Dive into the Game</h1>
         <br />
-        <button class="filled-btn">EXPLORE</button>
+        <a href="http://localhost:5173/"
+          ><button class="filled-btn">Play</button></a
+        >
       </section>
 
-      <section class="flex center full-width story-section white-txt column">
+      <section
+        id="story"
+        class="flex center full-width story-section white-txt column"
+      >
         <h1>STORY</h1>
         <p>
           During the Great Dragon War, Draven and Seraphine, young dragon
@@ -54,6 +59,7 @@
 
       <section
         class="flex column center section_margin full-width characters_section"
+        id="characters"
       >
         <h1 class="section_h_margin characters_title">Characters</h1>
 
@@ -99,6 +105,7 @@
 
       <section
         class="flex column center section_margin full-width Levels_section"
+        id="levels"
       >
         <h1 class="section_margin white-txt">Levels</h1>
 
@@ -136,7 +143,10 @@
         </div>
       </section>
 
-      <footer class="flex column center black-bg full-width footer-section">
+      <footer
+        id="footer"
+        class="flex column center black-bg full-width footer-section"
+      >
         <div class="flex center full-width footer-nav">
           <div>
             <a href="">Home</a>
