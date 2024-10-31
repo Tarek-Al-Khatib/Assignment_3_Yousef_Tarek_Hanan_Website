@@ -3,7 +3,6 @@
   margin-top: 95px;
   height: 85vh;
   gap: 2px;
-  background-image: url("../imgs/hero-bk.gif");
   background-size: cover;
   background-position: center;
 }
@@ -23,16 +22,9 @@
 
 /* Story Section*/
 .story-section {
-  height: 60vh;
+  height: 76vh;
   padding: 10px;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(1, 1, 1, 1),
-      rgba(1, 1, 1, 0.3),
-      rgba(255, 255, 255, 1)
-    ),
-    url("../imgs/story-bg.jpg");
-  background-position: center;
+  background-image: linear-gradient(to bottom, #000000, #b33bc4, #000000), url(../imgs/story-bg.jpg);  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -54,78 +46,48 @@
 /* Character Section*/
 
 .characters_section {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0) 5%,
-      rgba(255, 255, 255, 0) 95%,
-      rgba(255, 255, 255, 1) 100%
-    ),
-    url("../imgs/hero-bk.gif");
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
 }
 
-.characters_title {
-  font-size: 48px;
-  color: white;
-}
-.characters_section_sub {
+
+.characters_section_sub{
   gap: 15px;
-  justify-content: space-around;
+  justify-content: space-around
+
 }
-.character_section {
+.character_section{
   padding: 15px;
   border: 3px solid;
-  max-width: 40%;
+  max-width: 350px;
   flex-grow: 1;
   gap: 15px;
 }
 
-.character_name {
+.character_name{
   padding: 25px 0;
-  font-size: 48px;
   text-align: center;
   width: 100%;
 }
 
-.character_img {
-  margin-top: 10px;
-  width: 900px;
-  height: 500px;
+.character_img{
+  margin-top: 10px ;
+  width: 100%;
 }
 
-.character_info {
+.character_info{
   margin-top: 10px;
   padding: 5px 10px;
-  width: 80%;
-  height: 500px;
+  font-size: 20px;
   text-align: center;
-}
-
-.character_about {
-  gap: 8px;
-}
-
-.character_story {
-  font-size: 32px;
 }
 
 /* Level Section*/
 
 .Levels_section {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 5%,
-    rgba(255, 255, 255, 0) 90%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background-color: #692c71;
-}
+  background-image: linear-gradient(to bottom, #000000, #b33bc4, #000000), url(../imgs/story-bg.jpg);}
 
 .Levels_section_sub {
   gap: 15px;
@@ -156,7 +118,6 @@
 
 /* Footer */
 .footer-section {
-  background-image: url("../imgs/hero-bk.gif");
   padding: 40px 0px;
 }
 
@@ -184,11 +145,16 @@
 .copyright {
   color: #f2e5bf;
 }
-
-/* media queries*/
-
-@media screen and (max-width: 600px) {
-  .characters_section_sub {
-    flex-direction: column;
-  }
+.parallax_effect{
+  background-image: url("../imgs/hero-bk.gif");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+section{
+  padding-top: 40px;
+}
+
