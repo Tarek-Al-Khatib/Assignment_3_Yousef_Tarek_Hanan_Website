@@ -24,7 +24,9 @@
 .story-section {
   height: 76vh;
   padding: 10px;
-  background-image: linear-gradient(to bottom, #000000, #b33bc4, #000000), url(../imgs/story-bg.jpg);  background-position: center;
+  background-image: linear-gradient(to bottom, #000000, #b33bc4, #000000),
+    url(../imgs/story-bg.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,19 +48,16 @@
 /* Character Section*/
 
 .characters_section {
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-.characters_section_sub{
+.characters_section_sub {
   gap: 15px;
-  justify-content: space-around
-
+  justify-content: space-around;
 }
-.character_section{
+.character_section {
   padding: 15px;
   border: 3px solid;
   max-width: 350px;
@@ -66,18 +65,18 @@
   gap: 15px;
 }
 
-.character_name{
+.character_name {
   padding: 25px 0;
   text-align: center;
   width: 100%;
 }
 
-.character_img{
-  margin-top: 10px ;
+.character_img {
+  margin-top: 10px;
   width: 100%;
 }
 
-.character_info{
+.character_info {
   margin-top: 10px;
   padding: 5px 10px;
   font-size: 20px;
@@ -87,7 +86,9 @@
 /* Level Section*/
 
 .Levels_section {
-  background-image: linear-gradient(to bottom, #000000, #b33bc4, #000000), url(../imgs/story-bg.jpg);}
+  background-image: linear-gradient(to bottom, #000000, #b33bc4, #000000),
+    url(../imgs/story-bg.jpg);
+}
 
 .Levels_section_sub {
   gap: 15px;
@@ -145,16 +146,53 @@
 .copyright {
   color: #f2e5bf;
 }
-.parallax_effect{
+.parallax_effect {
   background-image: url("../imgs/hero-bk.gif");
-  min-height: 500px; 
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-section{
+section {
   padding-top: 40px;
 }
 
+/* media queries*/
+
+@media screen and (max-width: 850px) {
+  .nav-links {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-nav {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-links {
+    gap: 15px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-nav {
+    gap: 20px;
+    font-size: 12px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
